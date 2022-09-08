@@ -1,3 +1,4 @@
+/* headline styling */
 h1 {
     color: turquoise;
    
@@ -8,9 +9,10 @@ h1 {
     font-weight: 900;
 
 }
+/* subhead styling */
 h2 {
-    color: yellow;
-    background-color: blue;
+    /* color: yellow; */
+    text-transform: uppercase;
     text-align: center;
 }
 .larger-image{
@@ -19,4 +21,20 @@ h2 {
     background-color: brown;
     
 
+}
+
+/* style for headlines */
+.odd {
+    text-transform: uppercase;
+    color: yellow;
+}
+.even {
+    text-transform: lowercase;
+    font-size: 24px;
+}
+
+#grape {
+    color: red;
+    text-transform: uppercase;
+    font-size: 90px;
 }
